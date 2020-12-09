@@ -15,7 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: cypress-io/github-action@v2
-        
+        with:
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ee020381-e6bb-4f9c-841e-85775c2563eb
 #   build:
     
 #     runs-on: ubuntu-latest

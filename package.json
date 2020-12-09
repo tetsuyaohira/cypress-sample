@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tetsuyaohira/cypress-sample/issues"
   },
-  "homepage": "https://github.com/tetsuyaohira/cypress-sample#readme"
+  "homepage": "https://github.com/tetsuyaohira/cypress-sample#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0"
+  }
 }
